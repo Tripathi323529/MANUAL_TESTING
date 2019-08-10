@@ -1,0 +1,25 @@
+1)- AUT-Mobile Phone.
+2)- Basic Feature- Basic call.
+3)- Test Scenario:-Test basic call.
+  3.1 Check 2-way communication in the Basic call till information.
+  3.2 Check correctness of billing.
+  3.3 Check for correctness of call duration.
+
+4) Write Down Fields:-
+5)    Boundary value Analysis and equivalence partition:
+    Number is valid --- (a)Busy               |
+                        (b)switched off       |
+                        (c)Diverted           |---->Display corresponding error message.  
+                        (d)Forwarded          | 
+                        (e)not responding     |
+    Number is invalid----- Display error message--"Number Is Invalid".
+
+6) Test Case Description:-
+(*)To verify that,2 way Sp is established when user dial a valid number.
+(*)To verify for a valid customer number, Party A would able for  the call will get connected but only sender is able to listening voice and reciever is not able to listen the voice of sender.
+(*)To verify for Party A is in call with Party B , When Party C dials Party B Verify that Party C gets following eror message:"Called party is Busy"
+(*)To verify for Party A is in call with Party B , When Party B hand set is switch off gets following eror message:"Called party is switched off".
+(*)To verify for Party A is in call with Party B , When Party B is not connecting then it will show the error message: "Called party B is not in network area".
+  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
